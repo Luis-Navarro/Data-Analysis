@@ -13,6 +13,12 @@ def fib(n):
   
   return i
 
+# My name is Luis, so L=12 and S=19. They add up to 31 
+x = 31
+ans = fib(x)
+print("Fibonacci number", x, "is", ans)
+
+# This part returns the Fibonacci number of the ASCII code taken from my surname's first and last letters added together.
 name = "Navarro"
 first = name[0]
 last = name[-1]
