@@ -1,7 +1,7 @@
 # Luis Navarro, 06-Feb-2018
-# Collatz Conjeture
+# Collatz Conjecture
 
-i = int (input ("Please enter a starting integer for testing Collatz Conjeture: "))
+i = int (input ("Please enter a starting integer for testing Collatz Conjecture: "))
 j = 0
 while (i != 1):
     if (i % 2 == 0):
