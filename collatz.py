@@ -1,7 +1,11 @@
 # Luis Navarro, 06-Feb-2018
-# Collatz Conjecture
+# Collatz Conjecture: https://en.wikipedia.org/wiki/Collatz_conjecture
 
 i = int (input ("Please enter a starting integer for testing Collatz Conjecture: "))
+if (i<0):
+    print "Collatz Conjecture implies using positive integers"
+    i = 1
+        
 j = 0
 while (i != 1):
     if (i % 2 == 0):
