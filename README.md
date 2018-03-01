@@ -7,3 +7,5 @@ collatz.py was entirely coded by myself following instructions provided during t
 I added two features to this loop:
 First, I introduced an input for the starting integer. Negative integer introduction is prevented by a simple 'if' statement and a warning 'print' output. It also transforms the negative input into '1' to skip the loop and end the script, preventing infinite looping.
 The second contribution consisted in adding a counter of the required steps until Collatz Conjecture gets to 1. This 'j' variable is included in the loop with an incremental value. In that way, every time the loop is used, 'j' value is increased by 1.
+
+euler5.py is copied from Declan Reidy. After struggling with coding I found in the forum Declan's solution as a very short, straight-forward and mathematically consistent solution.
